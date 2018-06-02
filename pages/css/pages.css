@@ -1,18 +1,215 @@
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
     font-weight: 400;
+    line-height: 1.5em;
+
+    padding: 25px;
+
     letter-spacing: -.022em;
+
+    color: #333;
+
     font-synthesis: none;
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #333;
-    line-height: 1.5em;
-    padding: 25px;
 }
 
-img {
+img
+{
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
 /* Voeg jouw css hieraan toe */
+
+#container
+{
+    width: 960px;
+    margin: 0 auto;
+    padding: 2%;
+
+    -webkit-box-shadow: 4px 3px 33px -9px rgba(0,0,0,.75);
+       -moz-box-shadow: 4px 3px 33px -9px rgba(0,0,0,.75);
+            box-shadow: 4px 3px 33px -9px rgba(0,0,0,.75);
+}
+
+.titel{
+    padding: 1%;
+    background-color: rgba(39, 53, 130, .205);
+    color: #002040;
+    width: 180px;
+    
+    
+}
+
+#containter p
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+span
+{
+    font-weight: lighter;
+}
+
+#link{
+    color: #002040;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* navigatie */
+
+nav#navi
+{
+    padding: 1%;
+
+    background-color: rgba(39, 53, 130, .205);
+    -webkit-box-shadow: 3px 3px 0 0 rgba(39,53,130,1);
+       -moz-box-shadow: 3px 3px 0 0 rgba(39,53,130,1);
+            box-shadow: 3px 3px 0 0 rgba(39,53,130,1);
+}
+
+nav#navi li
+{
+    font-size: 1.5em;
+
+    display: inline;
+
+    margin-left: 5%;
+
+    text-transform: uppercase;
+}
+
+nav#navi li a
+{
+    font-weight: bold;
+
+    width: 100px;
+    height: 50px;
+    padding: 1.2% 1% 1.3% 1%;
+
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    color: rgba(39,53,130,1);
+}
+
+nav#navi li a:hover
+{
+    transition: .4s ease-in;
+
+    color: #efeeee;
+    background-color: rgba(39,53,130,1);
+}
+
+/* einde navigatie */
+
+p.lorem{
+    width: 50%;
+    padding: 1%;
+    background-color:rgba(39, 53, 130, .205);
+    -webkit-box-shadow: 3px 3px 0 0 rgba(39,53,130,1);
+       -moz-box-shadow: 3px 3px 0 0 rgba(39,53,130,1);
+            box-shadow: 3px 3px 0 0 rgba(39,53,130,1);
+}
+
+.conc{
+    width: 50%;
+}
+
+/* begin kleuren*/
+
+div.spec
+{
+    width: 400px;
+    padding: .5%;
+
+    color: white;
+}
+
+div#een
+{
+    background-color: #005fbf;
+}
+
+div#twee
+{
+    background-color: #16417a;
+}
+
+div#drie
+{
+    background-color: #007fff;
+}
+
+div#vier
+{
+    background-color: #002040;
+}
+
+div#vijf
+{
+    background-color: #306bb3;
+}
+
+div#zes
+{
+    color: black;
+    background-color: #efeeee;
+}
+
+div#zeven
+{
+    background-color: #eb3b5a;
+}
+
+div#acht
+{
+    background-color: #20bf6b;
+}
+
+/* einde kleuren*/
+
+/* begin knop*/
+
+a.knop
+{
+    font-size: 1.3em;
+
+    padding: .5%;
+
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    color: rgba(39,53,130,1);
+    background-color: rgba(39, 53, 130, .205);
+    -webkit-box-shadow: 3px 3px 0 0 rgba(39,53,130,1);
+       -moz-box-shadow: 3px 3px 0 0 rgba(39,53,130,1);
+            box-shadow: 3px 3px 0 0 rgba(39,53,130,1);
+}
+
+a.knop:hover
+{
+    transition: .4s ease-in;
+
+    color: #efeeee;
+    background-color: rgba(39,53,130,1);
+    -webkit-box-shadow: 3px 3px 0 0 rgba(39, 53, 130, .205);
+       -moz-box-shadow: 3px 3px 0 0 rgba(39, 53, 130, .205);
+            box-shadow: 3px 3px 0 0 rgba(39, 53, 130, .205);;
+}
+
+/* einde knop */
+
+/* footer */
+
+footer
+{
+    padding: .5%;
+    background-color: rgba(39,53,130,1);
+    color: #ffff;
+    text-align: center;
+}
